@@ -1,11 +1,9 @@
-import sys
-import subprocess
-subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
+#import sys
+#import subprocess
 import requests
 import boto3
 import json
 import logging
-import requests
 import io
 import os
 import time
